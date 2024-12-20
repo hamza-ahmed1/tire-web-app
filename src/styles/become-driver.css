@@ -1,0 +1,66 @@
+.become__driver {
+  background: linear-gradient(rgba(139, 0, 0, 0.9), rgba(139, 0, 0, 0.9)),
+    url("../assets/all-images/background-bmw.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+
+.become__driver button {
+  background: #ffffff;
+  color: #ff0000;
+  font-weight: 600;
+
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.become__driver button:hover {
+  background: #ff0000;
+  color: #fff;
+}
+
+.become__driver-title {
+  font-size: 2.8rem;
+  color: #ffffff;
+  line-height: 65px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 992px) {
+  .become__driver-title {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .become__driver {
+    padding: 50px 0px;
+  }
+
+  .become__driver-title {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+
+  .become__driver-btn {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .become__driver-img {
+    display: none;
+  }
+  .become__driver {
+    text-align: center;
+  }
+}
+  
+.Find-help-img{
+  padding-left: 40%;
+}

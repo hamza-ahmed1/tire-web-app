@@ -1,0 +1,29 @@
+@media only screen and (max-width: 992px) {
+  .about__page-content h2 {
+    font-size: 1.5rem; /* Adjust font size for medium screens */
+    color: #c00; /* Change font color to red */
+    text-shadow: 1px 1px 2px #000; /* Add a subtle black shadow for better readability */
+  }
+
+  .about__page-content {
+    background-color: #000; /* Set background color to black */
+    padding: 20px; /* Add padding for spacing */
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about__page-img {
+    display: none; /* Hide image on small screens */
+  }
+
+  .about__page-content {
+    background-color: #000; /* Maintain black background */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .about__page-content h2 {
+    font-size: 1.25rem; /* Further reduce font size for small screens */
+    color: #c00; /* Ensure heading remains red */
+    text-shadow: 1px 1px 2px #000; /* Maintain text shadow for readability */
+  }
+}

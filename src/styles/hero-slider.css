@@ -1,0 +1,88 @@
+/* ============ Slider Styles ============ */
+.slider__item {
+  max-width: 100%;
+  height: 650px; /* Default height */
+}
+
+.slider__item-01 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(100, 0, 0, 0.7)), /* Black to Red */
+    url("../assets/all-images/slider-img/slider-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item-02 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(100, 0, 0, 0.7)), /* Black to Red */
+    url("../assets/all-images/slider-img/slider-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__item-03 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(211, 0, 0, 0.7)), /* Black to Red */
+    url("../assets/all-images/slider-img/slider-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__slider {
+  overflow: hidden;
+}
+
+.slider__content {
+  padding-top: 150px;
+  color: #fff; /* White text for contrast */
+}
+
+.slider__content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Shadow for better readability */
+}
+
+.reserve__btn {
+  background: #fff !important; /* White button */
+  color: #d40000 !important; /* Red text */
+  border: none;
+  outline: none;
+  border-radius: 5px; /* Rounded corners */
+}
+
+.reserve__btn a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #d40000; /* Red link */
+}
+
+.reserve__btn:hover {
+  background: #d40000; /* Red background on hover */
+  color: #fff; /* White text on hover */
+}
+
+@media only screen and (max-width: 992px) {
+  .slider__item {
+    height: 530px; /* Adjusted height for medium screens */
+    max-width: 100vw;
+  }
+
+  .slider__content {
+    margin-top: -50px;
+  }
+
+  .slider__content h1 {
+    font-size: 2rem; /* Reduced font size */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slider__item {
+    height: 450px; /* Adjusted height for small screens */
+  }
+
+  .slider__content h1 {
+    font-size: 1.5rem; /* Further reduced font size */
+  }
+}
