@@ -28,7 +28,7 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                 hy Your Trusted Source for Quality Tires Across the USA
+                 Your Trusted Source for Quality Tires Across the USA
                 </h2>
 
                 <p className="section__description">
